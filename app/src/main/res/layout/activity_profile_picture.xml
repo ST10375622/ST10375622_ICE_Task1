@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilePicture">
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <Button
+        android:id="@+id/btnphotoUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="upload image"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+
+    <Button
+        android:id="@+id/HomePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home page"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="366dp"
+        />
+
+</LinearLayout>
